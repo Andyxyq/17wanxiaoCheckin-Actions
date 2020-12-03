@@ -130,6 +130,9 @@ def check_in(username, password):
              "jsonData": {"templateid": "pneumonia", "token": token},
              "method": "userComeApp"}
     post_dict = get_post_json(token, json1)
+    for j in post_dict['updatainfo']:
+        if j['propertyname'] == 'temperature':
+            j['value'] = '36.2'
     if not post_dict:
         errmsg = '获取完美校园打卡post参数失败'
         logging.warning(errmsg)
