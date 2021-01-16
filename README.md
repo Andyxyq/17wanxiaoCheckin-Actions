@@ -15,7 +15,7 @@
 之前的抓包部署教程请前往：[完美校园抓包打卡](https://github.  om/ReaJason/17wanxiaoCheckin-Actions/blob/master/README_LAST.md)
 
      
-      #### 一、功能介绍
+      #### 一、功能介绍 
 
 1. 完美校园模拟登录获取 token
 2. 自动获取上次提交的打卡数据
