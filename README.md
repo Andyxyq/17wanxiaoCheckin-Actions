@@ -13,7 +13,7 @@
 感谢 [@zhongbr](https://github.com/zhongbr) 的完美校园逆向登录分析代码的分享：[完美校园模拟登录](https://github.com/zhongbr/wanmei_campus)
 
 之前的抓包部署教程请前往：[完美校园抓包打卡](https://github.  om/ReaJason/17wanxiaoCheckin-Actions/blob/master/README_LAST.md)
-
+   
         
       #### 一、功能介绍 
 
@@ -25,8 +25,8 @@
    - `下午五点`：晚上校内打卡`
 4. 微信推送打卡消息  
           
-           
- #### 二、打卡数据
+                  
+ ####    二、打卡数据
 
 细心的你应该会发现，自从第一次打卡之后，每次进去信息基本自动填写好了，我抓取的就是这个接口，
 
